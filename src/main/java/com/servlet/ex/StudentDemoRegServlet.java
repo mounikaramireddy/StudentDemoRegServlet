@@ -35,11 +35,11 @@ public class StudentDemoRegServlet extends GenericServlet {
 				pw.println(s5);
 			if (s6 != null)
 				pw.println(s6);
-			pw.println("hobbies:" + s7);
+			pw.print("hobbies:  ");
 			for (String si : s7) {
-				pw.println(si);
+				pw.print(si+ "   ");
 			}
-			pw.println("country:" + s8);
+			pw.println("\ncountry:" + s8);
 			pw.println("username:" + s9);
 			pw.println("password:" + s10);
 		} catch (Exception e) {
